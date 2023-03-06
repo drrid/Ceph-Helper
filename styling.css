@@ -1,0 +1,54 @@
+Screen {
+    layout: grid;
+    grid-size: 2;  /* two columns */
+    grid-columns: 3fr 8fr;
+    grid-rows: 1fr;
+}
+
+#container {
+    height: 100%;
+    border: solid rgb(221, 196, 5);
+}
+
+
+#vertical {
+    height: 100%;
+    /* border: solid rgb(221, 196, 5); */
+}
+
+#patients {
+    height: 2fr;
+    border: solid rgb(221, 196, 5);
+}
+
+#values_table {
+    height: 2fr;
+    border: solid rgb(221, 196, 5);
+}
+
+#inputs {
+    height: 3fr;
+    /* border: solid rgb(221, 196, 5); */
+}
+#age {
+    width: 1fr;
+    content-align: left middle;
+    /* border: solid rgb(221, 196, 5); */
+}
+
+#dob {
+    width: 2fr;
+}
+
+#pre_post {
+    content-align: center middle;
+}
+
+
+
+
+
+
+/* #textlog {
+    height: 100%;
+} */
